@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Carattere&display=swap');
+
+* {
+    text-decoration: none;
+    font-weight: bold;
+    /* arrumar o font weight descobrir pq nao esta funcionando  */
+}
+
+/* CABEÇALHO */
+
+.headerBanner {
+    background-image: url(../img/Banner.png);
+    height: 620px;
+}
+
+hr {
+    background: #fff;
+    height: 1px;
+}
+
+
+/* CENTRALIZAR O SITE TODO */
+
+
+header .container1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+header div .icons {
+    display: flex;
+    align-items: center;
+}
+
+header ul a {
+    color: white;
+}
+
+header ul a:hover {
+    color: #14b3b9;
+}
+
+header ul {
+    font-family: "Candal", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+header li {
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+/* COLOCAR GRADIENTE */
+
+header button {
+    background: linear-gradient(yellow, blue);
+}
+
+header .fa-sun {
+    color: yellow
+}
+
+header .fa-moon {
+    color: whitesmoke;
+}
+
+header .fa-gear {
+    color: black;
+}
+
+header h1 {
+    width: 400px;
+    padding: 80px;
+}
+
+header .container2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+header h2 {
+    color: #DBC7B3;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 31pt;
+}
+
+header h2 span {
+    color: #14b3b9;
+    font-family: "Carattere", cursive !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50pt !important;
+}
+
+
+/* MAIN */
+
+
+main {
+    background: #0A2945;
+    padding-bottom: 70px;
+}
+
+main button {
+    background: none;
+    border: none;
+    display: block;
+}
+
+main button i {
+    color: white;
+    font-size: 70px;
+    padding: 10px;
+}
+
+main h3 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20pt;
+    display: flex;
+    justify-content: flex-end;
+    width: 48%;
+}
+
+main .retangulo {
+    background-image: linear-gradient(to left, #0A2945, #07011f);
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 34px;
+}
+
+main .retangulo img {
+    border-radius: 100px;
+    width: 384px;
+    margin-top: 30px;
+}
+
+main .retangulo p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20pt;
+    margin: 40px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    line-height: 35px;
+}
+
+main .images img {
+    padding: 20px;
+}
+
+main .botoes button {
+    background-color: #07011f;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 5px;
+}
+
+main button a {
+    color: white;
+    font-size: 15pt;
+    font-family: "Inter", sans-serif;
+}
+
+main .botoes {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* SERVIÇO */
+
+
+section {
+    background: #010F10;
+}
+
+.site article {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+section article div {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+section article h2 {
+    background: #D9D9D9;
+    color: #040404;
+    font-size: 22pt;
+    border-radius: 100px;
+}
+
+section article h3 {
+    color: #FFFFFF;
+    line-height: 31px;
+    font-size: 17pt;
+    letter-spacing: 2px;
+}
+
+section article h2,
+h3 {
+    font-family: "Candal", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    padding: 50px;
+}
+
+
+/* RODAPÉ */
+
+
+footer {
+    background: #010F10;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer img {
+    width: 200px;
+}
+
+footer i {
+    color: yellow;
+    font-size: 55px;
+    color: white;
+}
+
+footer ul {
+    color: #FFFFFF;
+    font-family: "Candal", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 40px;
+    margin-right: 80px;
+    font-size: 18px;
+}
+
+footer .caixa1 {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .caixa2 {
+    display: flex;
+    flex-direction: column;
+}
+
+h6 {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+/* SOBRE NÓS */
+
+
+.container01 {
+    background: linear-gradient(to right, #0d0d0d, #0a2945, #0e3455);
+}
+
+.sobreNos h1 {
+    width: 400px;
+    padding: 80px;
+}
+
+.sobreNos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sobreNos .botoes button {
+    background: #14B3B9;
+    color: white;
+    height: 80px;
+    width: 210px;
+    border-radius: 40px;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+.iconText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iconText p {
+    color: white;
+    font-size: 26px;
+    padding-left: 160px;
+
+}
+
+.acessivel button {
+    border: none;
+    background: none;
+    display: block;
+}
+
+.acessivel button i {
+    color: white;
+    font-size: 70px;
+    padding: 10px;
+}
+
+.site .acessivel {
+    background: #0A2945;
+}
+
+h3 {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 50px;
+    font-size: 20pt;
+}
+
+.siteh {
+    background: #0A2945;
+}
+
+.siteh i {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.siteh div img {
+    width: 140px;
+    height: 140px;
+}
+
+.equipe {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.equipe p {
+    color: white;
+    margin-top: 20px;
+}
+
+.equipetexto {
+    background: black;
+    border-radius: 20px;
+    height: 400px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+/* SERVIÇOS */
+
+
+
+.servicoBanner {
+    background-image: url(../img/AdobeStock_646567033\ 4.png);
+    border: red solid;
+    height: 620px;
+}
+
+.quadradoServico {
+    border: red solid;
+}
+
+.container1Servico {
+    border: red solid;
+    display: flex;
+    justify-content: center;
+}
+
+.iconsServico {
+    border: red solid;
+}
+
+.container2Servico {
+    border: red solid;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+
+.retanguloServico {
+    background-image: linear-gradient(to left, #0A2945, #07011f);
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 34px;
+}
+
+.retanguloServico h3 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20pt;
+    display: flex;
+    justify-content: flex-end;
+    width: 12%;
+}
+
+.retanguloServico div {
+}
+
+.retanguloServico img {
+    width: 50px;
+    height: 50px;
+}
+
+.teste {
+    border: blue solid;
+    margin: 20px;
+}
+
+.teste1 {
+    display: block;
+    margin: 20px;
+    background: grey;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+
